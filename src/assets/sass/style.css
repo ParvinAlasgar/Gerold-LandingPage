@@ -135,6 +135,37 @@ html {
 #main #resume .item h5 {
   color: #683cc0;
 }
+#main #skills {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+}
+#main #skills h2 {
+  font-size: 3rem !important;
+  color: #683cc0;
+}
+#main #skills p {
+  font-size: 1.2rem !important;
+}
+#main #skills .skill h5 {
+  color: #683cc0;
+}
+#main #skills .skill .wrapper {
+  transition: background-color 0.6s;
+  border-color: #683cc0 !important;
+}
+#main #skills .skill .wrapper img {
+  filter: grayscale(1);
+  transition: filter 0.6s;
+}
+#main #skills .skill .wrapper:hover {
+  background-color: #683cc0;
+  filter: grayscale(0);
+}
+#main #skills .skill .wrapper:hover h4 {
+  color: #49288a !important;
+}
+#main #skills .skill .wrapper:hover img {
+  filter: grayscale(0);
+}
 
 @media only screen and (max-width: 992px) {
   #nav .mail,
@@ -224,5 +255,11 @@ html {
   }
   #main #works .content P {
     font-size: 0.5rem !important;
+  }
+  #main #skills h2 {
+    font-size: 1.8rem !important;
+  }
+  #main #skills p {
+    font-size: 1rem !important;
   }
 }/*# sourceMappingURL=style.css.map */
