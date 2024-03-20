@@ -1,0 +1,45 @@
+html {
+  font-size: 1rem;
+}
+
+#nav img {
+  width: 3rem;
+}
+#nav .btn {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%) !important;
+  border-radius: 2rem;
+}
+#nav .mini-menu .fab-bars:hover ul {
+  display: block !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #nav .mail,
+  #nav .btn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #nav .mail,
+  #nav .logo {
+    display: none !important;
+  }
+  #nav .menu {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #nav .menu {
+    padding: 1rem 0;
+  }
+  #nav .menu li {
+    padding: 0 !important;
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #nav .menu li {
+    padding: 0 !important;
+    font-size: 0.7rem !important;
+  }
+}/*# sourceMappingURL=style.css.map */

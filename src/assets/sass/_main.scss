@@ -1,0 +1,22 @@
+html {
+  font-size: 1rem;
+}
+// Nav
+#nav {
+  img {
+    width: 3rem;
+  }
+  .btn {
+    background-image: $color_third !important;
+    border-radius: 2rem;
+  }
+  .mini-menu {
+    .fab-bars {
+      &:hover {
+        ul {
+          display: block !important;
+        }
+      }
+    }
+  }
+}
