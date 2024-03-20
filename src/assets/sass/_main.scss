@@ -130,4 +130,30 @@ html {
       }
     }
   }
+  // Resume
+  #resume {
+    h2 {
+      margin-bottom: 1rem;
+      color: $color_second;
+      i {
+        margin-right: 0.5rem !important;
+      }
+    }
+    .item {
+      background-image: $color_third;
+      margin-bottom: 1.5rem;
+      transition: background-color 0.4s;
+      &:hover {
+        background-image: unset !important;
+        background-color: $color_second;
+
+        h5 {
+          color: #fff !important;
+        }
+      }
+      h5 {
+        color: $color_second;
+      }
+    }
+  }
 }
