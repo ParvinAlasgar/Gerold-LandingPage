@@ -13,10 +13,60 @@ html {
   display: block !important;
 }
 
+#header {
+  padding: 7rem 0;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+}
+#header h2 {
+  font-size: 4rem !important;
+}
+#header h2,
+#header .btn,
+#header i {
+  color: #683cc0;
+}
+#header .btn {
+  border-color: #683cc0;
+  border-radius: 2rem;
+  transition: background-color 0.4s;
+}
+#header .btn i {
+  margin-left: 0.4rem;
+}
+#header .btn:hover {
+  color: #fff;
+  background-color: #683cc0;
+}
+#header .btn:hover i {
+  color: #fff;
+}
+#header li {
+  border-color: #683cc0 !important;
+  transition: background-color 0.3s;
+}
+#header li:hover {
+  background-color: #683cc0;
+}
+#header li:hover i {
+  color: #fff;
+}
+#header .img {
+  border-color: #683cc0 !important;
+  transition: transform 0.5s;
+  transform: rotate(10deg);
+}
+#header .img:hover {
+  transform: unset;
+}
+
 @media only screen and (max-width: 992px) {
   #nav .mail,
   #nav .btn {
     display: none;
+  }
+  #header h2 {
+    font-size: 3rem !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -26,6 +76,9 @@ html {
   }
   #nav .menu {
     justify-content: center !important;
+  }
+  #header .img {
+    width: 20rem;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -41,5 +94,20 @@ html {
   #nav .menu li {
     padding: 0 !important;
     font-size: 0.7rem !important;
+  }
+  #header h2 {
+    font-size: 2rem !important;
+  }
+  #header .buttons {
+    display: block !important;
+  }
+  #header .buttons .btn {
+    margin-bottom: 1rem;
+  }
+  #header .img {
+    width: 15rem;
+  }
+  #header .exp h2 {
+    font-size: 1.8rem !important;
   }
 }/*# sourceMappingURL=style.css.map */

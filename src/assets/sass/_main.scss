@@ -20,3 +20,50 @@ html {
     }
   }
 }
+// Header
+#header {
+  padding: 7rem 0;
+  width: 100%;
+  background-image: $color_third;
+  h2 {
+    font-size: 4rem !important;
+  }
+  h2,
+  .btn,
+  i {
+    color: $color_second;
+  }
+  .btn {
+    border-color: $color_second;
+    border-radius: 2rem;
+    transition: background-color 0.4s;
+    i {
+      margin-left: 0.4rem;
+    }
+    &:hover {
+      color: #fff;
+      background-color: $color_second;
+      i {
+        color: #fff;
+      }
+    }
+  }
+  li {
+    border-color: $color_second !important;
+    transition: background-color 0.3s;
+    &:hover {
+      i {
+        color: #fff;
+      }
+      background-color: $color_second;
+    }
+  }
+  .img {
+    border-color: $color_second !important;
+    transition: transform 0.5s;
+    transform: rotate(10deg);
+    &:hover {
+      transform: unset;
+    }
+  }
+}

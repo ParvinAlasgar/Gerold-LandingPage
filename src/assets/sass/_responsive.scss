@@ -13,6 +13,11 @@
       display: none;
     }
   }
+  #header {
+    h2 {
+      font-size: 3rem !important;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)
@@ -26,6 +31,11 @@
       justify-content: center !important;
     }
   }
+  #header {
+    .img {
+      width: 20rem;
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)
@@ -33,7 +43,6 @@
   #nav {
     .menu {
       padding: 1rem 0;
-
       li {
         padding: 0 !important;
         font-size: 0.8rem !important;
@@ -49,6 +58,25 @@
       li {
         padding: 0 !important;
         font-size: 0.7rem !important;
+      }
+    }
+  }
+  #header {
+    h2 {
+      font-size: 2rem !important;
+    }
+    .buttons {
+      display: block !important;
+      .btn {
+        margin-bottom: 1rem;
+      }
+    }
+    .img {
+      width: 15rem;
+    }
+    .exp {
+      h2 {
+        font-size: 1.8rem !important;
       }
     }
   }
