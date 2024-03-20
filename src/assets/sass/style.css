@@ -78,6 +78,41 @@ html {
   height: 0.2rem;
   background-color: #683cc0;
 }
+#main #works {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+}
+#main #works h2 {
+  font-size: 3rem;
+  color: #683cc0;
+}
+#main #works ul {
+  width: 21rem;
+}
+#main #works ul li {
+  transition: background-color 0.3s;
+}
+#main #works ul li:nth-child(1) {
+  background-color: #683cc0;
+}
+#main #works ul li:hover {
+  background-color: #683cc0 !important;
+}
+#main #works .wrapper {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%) !important;
+}
+#main #works .wrapper .content {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%) !important;
+  bottom: 0;
+  transition: all 0.4s;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  cursor: pointer;
+}
+#main #works .wrapper:hover .content {
+  bottom: 20px;
+  visibility: visible;
+}
 
 @media only screen and (max-width: 992px) {
   #nav .mail,
@@ -117,6 +152,12 @@ html {
     padding: 0 !important;
     font-size: 0.8rem !important;
   }
+  #main #works ul {
+    width: 19rem !important;
+  }
+  #main #works ul li {
+    padding: 0.4rem 0.8rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #nav .menu li {
@@ -146,5 +187,20 @@ html {
   }
   #main #services .widget-item p {
     font-size: 0.6rem !important;
+  }
+  #main #works h2 {
+    font-size: 2rem !important;
+  }
+  #main #works ul {
+    width: 17rem !important;
+  }
+  #main #works ul li {
+    padding: 0.4rem 0.5rem !important;
+  }
+  #main #works .content h3 {
+    font-size: 0.9rem !important;
+  }
+  #main #works .content P {
+    font-size: 0.5rem !important;
   }
 }/*# sourceMappingURL=style.css.map */

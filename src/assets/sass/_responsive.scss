@@ -70,6 +70,16 @@
       }
     }
   }
+  #main {
+    #works {
+      ul {
+        width: 19rem !important;
+        li {
+          padding: 0.4rem 0.8rem !important;
+        }
+      }
+    }
+  }
 }
 
 // Extra Small devices (tablets, 320px and down)
@@ -108,10 +118,29 @@
       }
       .widget-item {
         h3 {
-          font-size: .6rem !important;
+          font-size: 0.6rem !important;
         }
         p {
           font-size: 0.6rem !important;
+        }
+      }
+    }
+    #works {
+      h2 {
+        font-size: 2rem !important;
+      }
+      ul {
+        width: 17rem !important;
+        li {
+          padding: 0.4rem 0.5rem !important;
+        }
+      }
+      .content {
+        h3 {
+          font-size: 0.9rem !important;
+        }
+        P {
+          font-size: 0.5rem !important;
         }
       }
     }

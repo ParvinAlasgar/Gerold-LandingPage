@@ -92,4 +92,42 @@ html {
       }
     }
   }
+  // Works
+  #works {
+    background-image: $color_third;
+    h2 {
+      font-size: 3rem;
+      color: $color_second;
+    }
+    ul {
+      width: 21rem;
+      li {
+        transition: background-color 0.3s;
+        &:nth-child(1) {
+          background-color: $color_second;
+        }
+        &:hover {
+          background-color: $color_second !important;
+        }
+      }
+    }
+    .wrapper {
+      background-image: $color_third !important;
+      .content {
+        background-image: $color_third !important;
+        bottom: 0;
+        transition: all 0.4s;
+        left: 50%;
+        transform: translateX(-50%);
+        visibility: hidden;
+        cursor: pointer;
+      }
+      &:hover {
+        .content {
+          bottom: 20px;
+          visibility: visible;
+        }
+      }
+    }
+  }
 }
