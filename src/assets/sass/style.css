@@ -60,6 +60,25 @@ html {
   transform: unset;
 }
 
+#main #services h2 {
+  color: #683cc0;
+  font-size: 3rem;
+}
+#main #services .widget .widget-item {
+  transition: background-color 0.4s;
+  cursor: pointer;
+}
+#main #services .widget .widget-item:hover {
+  background-color: #683cc0;
+}
+#main #services .widget .widget-item:nth-child(1) {
+  background-color: #683cc0;
+}
+#main #services .widget hr {
+  height: 0.2rem;
+  background-color: #683cc0;
+}
+
 @media only screen and (max-width: 992px) {
   #nav .mail,
   #nav .btn {
@@ -67,6 +86,9 @@ html {
   }
   #header h2 {
     font-size: 3rem !important;
+  }
+  #main #services .widget-item h3 {
+    font-size: 1.5rem !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -79,6 +101,12 @@ html {
   }
   #header .img {
     width: 20rem;
+  }
+  #main #services .widget-item h3 {
+    font-size: 1rem !important;
+  }
+  #main #services .widget-item p {
+    font-size: 0.7rem !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -109,5 +137,14 @@ html {
   }
   #header .exp h2 {
     font-size: 1.8rem !important;
+  }
+  #main #services h2 {
+    font-size: 1rem !important;
+  }
+  #main #services .widget-item h3 {
+    font-size: 0.6rem !important;
+  }
+  #main #services .widget-item p {
+    font-size: 0.6rem !important;
   }
 }/*# sourceMappingURL=style.css.map */

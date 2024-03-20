@@ -18,6 +18,15 @@
       font-size: 3rem !important;
     }
   }
+  #main {
+    #services {
+      .widget-item {
+        h3 {
+          font-size: 1.5rem !important;
+        }
+      }
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and down)
@@ -34,6 +43,18 @@
   #header {
     .img {
       width: 20rem;
+    }
+  }
+  #main {
+    #services {
+      .widget-item {
+        h3 {
+          font-size: 1rem !important;
+        }
+        p {
+          font-size: 0.7rem !important;
+        }
+      }
     }
   }
 }
@@ -77,6 +98,21 @@
     .exp {
       h2 {
         font-size: 1.8rem !important;
+      }
+    }
+  }
+  #main {
+    #services {
+      h2 {
+        font-size: 1rem !important;
+      }
+      .widget-item {
+        h3 {
+          font-size: .6rem !important;
+        }
+        p {
+          font-size: 0.6rem !important;
+        }
       }
     }
   }

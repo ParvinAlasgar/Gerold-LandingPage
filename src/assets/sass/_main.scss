@@ -67,3 +67,29 @@ html {
     }
   }
 }
+// Main
+#main {
+  // Services
+  #services {
+    h2 {
+      color: $color_second;
+      font-size: 3rem;
+    }
+    .widget {
+      .widget-item {
+        transition: background-color 0.4s;
+        cursor: pointer;
+        &:hover {
+          background-color: $color_second;
+        }
+        &:nth-child(1) {
+          background-color: $color_second;
+        }
+      }
+      hr {
+        height: 0.2rem;
+        background-color: $color_second;
+      }
+    }
+  }
+}
