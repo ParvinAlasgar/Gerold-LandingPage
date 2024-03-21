@@ -113,9 +113,6 @@
   }
   #main {
     #services {
-      h2 {
-        font-size: 1rem !important;
-      }
       .widget-item {
         h3 {
           font-size: 0.6rem !important;
@@ -126,9 +123,6 @@
       }
     }
     #works {
-      h2 {
-        font-size: 2rem !important;
-      }
       ul {
         width: 17rem !important;
         li {
@@ -145,11 +139,28 @@
       }
     }
     #skills {
-      h2 {
-        font-size: 1.8rem !important;
-      }
       p {
         font-size: 1rem !important;
+      }
+    }
+    #services,
+    #blogs,
+    #works,
+    #skills,
+    #contact {
+      h2 {
+        font-size: 2rem !important;
+      }
+    }
+  }
+  #footer {
+    img {
+      width: 3.5rem !important;
+    }
+    li {
+      padding: 0rem;
+      a {
+        font-size: 0.6rem;
       }
     }
   }

@@ -2,6 +2,9 @@ html {
   font-size: 1rem;
 }
 
+#nav {
+  z-index: 4 !important;
+}
 #nav img {
   width: 3rem;
 }
@@ -325,17 +328,11 @@ html {
   #header .exp h2 {
     font-size: 1.8rem !important;
   }
-  #main #services h2 {
-    font-size: 1rem !important;
-  }
   #main #services .widget-item h3 {
     font-size: 0.6rem !important;
   }
   #main #services .widget-item p {
     font-size: 0.6rem !important;
-  }
-  #main #works h2 {
-    font-size: 2rem !important;
   }
   #main #works ul {
     width: 17rem !important;
@@ -349,10 +346,23 @@ html {
   #main #works .content P {
     font-size: 0.5rem !important;
   }
-  #main #skills h2 {
-    font-size: 1.8rem !important;
-  }
   #main #skills p {
     font-size: 1rem !important;
+  }
+  #main #services h2,
+  #main #blogs h2,
+  #main #works h2,
+  #main #skills h2,
+  #main #contact h2 {
+    font-size: 2rem !important;
+  }
+  #footer img {
+    width: 3.5rem !important;
+  }
+  #footer li {
+    padding: 0rem;
+  }
+  #footer li a {
+    font-size: 0.6rem;
   }
 }/*# sourceMappingURL=style.css.map */
