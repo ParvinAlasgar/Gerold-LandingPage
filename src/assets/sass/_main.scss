@@ -248,4 +248,42 @@ html {
       }
     }
   }
+  // Contact
+  #contact {
+    .wrapper {
+      background-image: $color_third;
+      h2 {
+        font-size: 3rem;
+        color: $color_second;
+      }
+      input,
+      select {
+        outline: none !important;
+        &:hover {
+          border-color: $color_second !important;
+        }
+      }
+      input[type="submit"] {
+        background-image: $color_third;
+        border-radius: 2rem;
+      }
+    }
+    li {
+      i {
+        background-image: $color_third !important;
+        transition: transform 0.3s;
+      }
+      a {
+        transition: color 0.4s;
+        &:hover {
+          color: $color_second !important;
+        }
+      }
+      &:hover {
+        i {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
 }
