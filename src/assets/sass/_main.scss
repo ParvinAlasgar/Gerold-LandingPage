@@ -190,4 +190,23 @@ html {
       }
     }
   }
+  #testimonials {
+    h2 {
+      color: $color_second;
+    }
+    .wrapper {
+      background-image: $color_third;
+      .logo {
+        height: 2rem !important;
+      }
+      .client {
+        height: 5rem !important;
+        border-radius: 0.5rem;
+        border-bottom-left-radius: 90%;
+      }
+      i {
+        color: $color_second;
+      }
+    }
+  }
 }
