@@ -250,6 +250,16 @@ html {
   transform: scale(1.2);
 }
 
+#footer {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+}
+#footer img {
+  width: 5rem !important;
+}
+#footer p {
+  color: #683cc0;
+}
+
 @media only screen and (max-width: 992px) {
   #nav .mail,
   #nav .btn {
