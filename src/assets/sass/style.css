@@ -183,6 +183,40 @@ html {
 #main #testimonials .wrapper i {
   color: #683cc0;
 }
+#main #blogs {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+}
+#main #blogs h6 {
+  background-color: #683cc0;
+  font-size: 0.8rem;
+  top: 5%;
+  left: 5%;
+}
+#main #blogs h2 {
+  color: #683cc0;
+  font-size: 4rem !important;
+}
+#main #blogs .wrapper {
+  cursor: pointer;
+}
+#main #blogs .wrapper img {
+  transition: transform 0.4s;
+}
+#main #blogs .wrapper:hover img {
+  transform: scale(1.1);
+}
+#main #blogs .wrapper .content {
+  background-image: linear-gradient(90deg, rgb(55, 56, 75) 0%, rgb(48, 44, 58) 35%, rgb(43, 17, 100) 100%);
+  bottom: 1rem;
+  width: 100%;
+}
+#main #blogs .wrapper .content li {
+  font-size: 0.9rem;
+  color: #683cc0;
+}
+#main #blogs .wrapper .content li i {
+  margin-right: 0.2rem;
+}
 
 @media only screen and (max-width: 992px) {
   #nav .mail,

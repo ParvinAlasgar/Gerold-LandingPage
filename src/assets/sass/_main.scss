@@ -190,6 +190,7 @@ html {
       }
     }
   }
+  // Testimonials
   #testimonials {
     h2 {
       color: $color_second;
@@ -206,6 +207,44 @@ html {
       }
       i {
         color: $color_second;
+      }
+    }
+  }
+  // Blogs
+  #blogs {
+    background-image: $color_third;
+    h6 {
+      background-color: $color_second;
+      font-size: 0.8rem;
+      top: 5%;
+      left: 5%;
+    }
+    h2 {
+      color: $color_second;
+      font-size: 4rem !important;
+    }
+    .wrapper {
+      cursor: pointer;
+
+      img {
+        transition: transform 0.4s;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      .content {
+        background-image: $color_third;
+        bottom: 1rem;
+        width: 100%;
+        li {
+          font-size: 0.9rem;
+          color: $color_second;
+          i {
+            margin-right: 0.2rem;
+          }
+        }
       }
     }
   }
